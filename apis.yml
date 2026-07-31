@@ -1,8 +1,25 @@
 aid: oneconnect
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oneconnect.png
 name: OneConnect
-description: 'OneConnect is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OneConnect Financial Technology (NYSE: OCFT; HKEX: 6638) is a technology-as-a-service
+  platform for financial institutions, incorporated in 2015 as an associate of China''s Ping An
+  Group to externalize its banking and insurance technology. Its cloud-native, microservices platform
+  spans digital banking, digital insurance, and the Gamma platform (AI voice, computer vision, blockchain
+  and big-data analytics), serving hundreds of banks and insurers across China and Southeast Asia with
+  ready-to-integrate financial technology components exposed through Open APIs. OneConnect raised a
+  US$650M Series A in 2018 from investors including the SoftBank Vision Fund and SBI Group. Its APIs
+  are delivered as enterprise B2B integrations rather than a public self-serve developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/oneconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +29,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Financial Services
+- Banking
+- Insurance
+- Artificial Intelligence
+- Blockchain
+- Cloud
+- Technology as a Service
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/oneconnect-domain-security.yml
+- type: Website
+  url: https://ocft.com/en/
+- type: PrivacyPolicy
+  url: https://ocft.com/en/en_privacy/
+- type: TermsOfService
+  url: https://www.ocft.com.sg/terms-conditions/
+- type: Support
+  url: https://ocft.com/en/en_about/en_contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
