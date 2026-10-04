@@ -44,7 +44,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Banking
 - Insurance
 - Artificial Intelligence
@@ -61,6 +61,7 @@ tags_raw:
 - Blockchain
 - Cloud
 - Technology as a Service
+- Financial-Services
 apis: []
 x-enrichment:
   date: '2026-07-20'
